@@ -28,29 +28,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>Home</title>
   </head>
-  <body>
-    
-
-    
-    <!-- front page!-->
-    <button class="backarrow" id="backarrowid">&larr; BACK TO HOME</button>
-
-     <div class="frontpagediv" id="frontpagedivid">
-      <div style="text-align: center;">
-        <img src="images/icons8-crystal-60.png" alt="" style="width: 6vw; height: 6vw;"/>
-        <p class="title">CRYSTAL V5</p>
-        <p id="randomtext" style="color: white; margin-bottom: 150px;font-family: Overpass, sans-serif; font-size: 2vw;font-style:italic;"></p>
-      </div>
-      <div style="display: flex;  justify-content: center;gap: 70px;">
-        <button onclick="sussy()" class="frontpagebuttons" style="margin-bottom: 30px; margin-top: 0px;">▶ LET'S GO</button>
-       </div>
-     </div>
-
- 
+  <body style="background-color: black;">
     
     <!-- this is the div where games are-->
+    <div class="top">
+      <h1 style="font-size: 3.3vw; color: white; margin-bottom: 8px;">CRYSTALSITE V5</h1>
+      <p id="randomtext" style="color: white; font-size: 1.7vw;"></p>
+    </div>
       <div class="grid" id="grid">
-        <p class="borders">#</p>
         <button id="buttonminute" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/10tilldawnthumb.png" class="gamethumbs" />
           10 Minutes till Dawn
@@ -59,7 +44,6 @@
           <img src="/gamethumbnails/2048thumb.png" class="gamethumbs" />
           2048
         </button>
-        <p class="borders">A</p>
         <button id="buttonworld" class="gamebuttons" title="Click to play"> 
           <img
             src="/gamethumbnails/asmallworldcupthumb.png"
@@ -71,7 +55,6 @@
           <img src="/gamethumbnails/awsomethumb.png" class="gamethumbs" />
           Awsome Tanks 2
         </button>
-        <p class="borders">B</p>
         <button id="buttonbros" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/basketbrosthumb.png" class="gamethumbs" />
           Basket Bros
@@ -88,7 +71,6 @@
           <img src="/gamethumbnails/boxingrandomthumb.png" class="gamethumbs" />
           Boxing Random
         </button>
-        <p class="borders">C</p>
         <button id="chromedino" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/chromethumb.png" class="gamethumbs" />
           Chrome Dino Game
@@ -105,7 +87,6 @@
           <img src="/gamethumbnails/cubethumb.png" class="gamethumbs" />
           Cube Field
         </button>
-        <p class="borders">D</p>
         <button id="buttondeath" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/death3dthumb.png" class="gamethumbs" />
           Death Run 3D
@@ -130,12 +111,10 @@
           <img src="/gamethumbnails/drivemadthumb.png" class="gamethumbs" />
           Drive Mad
         </button>
-        <p class="borders">W</p>
         <button id="buttonfluid" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/fluidthumb.png" class="gamethumbs" />
           WebGL Fluid Simulator
         </button>
-        <p class="borders">G</p>
         <button id="buttongun2" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/gun2thumb.png" class="gamethumbs" />
           Gun Mayhem 2
@@ -152,22 +131,18 @@
           <img src="/gamethumbnails/getthumb.png" class="gamethumbs" />
           Getting Over it (Scratch)
         </button>
-        <p class="borders">J</p>
         <button id="buttonjoyride" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/joyridethumb.png" class="gamethumbs" />
           Jetpack Joyride
         </button>
-        <p class="borders">M</p>
         <button id="buttonmonkey" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/monkeythumb.png" class="gamethumbs" />
           Monkey Mart
         </button>
-        <p class="borders">N</p>
         <button id="buttonparkour" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/noobstevethumb.png" class="gamethumbs" />
           Noob Steve Parkour
         </button>
-        <p class="borders">P</p>
         <button id="buttonpaper" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/paperiothumb.png" class="gamethumbs" />
           Paper.io
@@ -180,12 +155,10 @@
           <img src="/gamethumbnails/pushsquarethumb.png" class="gamethumbs" />
           Push the Square
         </button>
-        <p class="borders">R</p>
         <button id="buttonradius" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/radiusthumb.png" class="gamethumbs" />
           Radius Raid
         </button>
-        <p class="borders">S</p>
         <button id="buttonslope" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/slopethumb.png" class="gamethumbs" />
           Slope
@@ -214,7 +187,6 @@
           <img src="/gamethumbnails/subwaythumb.png" class="gamethumbs" />
           Subway Sufers
         </button>
-        <p class="borders">T</p>
         <button id="buttontunnel" class="gamebuttons" title="Click to play">
           <img src="gamethumbnails/tunnelrushthumb.png" class="gamethumbs" />
           Tunnel Rush
@@ -223,7 +195,6 @@
           <img src="gamethumbnails/tetherthumb.png" class="gamethumbs" />
             Tether
         </button>
-        <p class="borders">V</p>
         <button id="buttonvex5" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/vex5thumb.png" class="gamethumbs" />
           Vex 5
@@ -240,7 +211,6 @@
           <img src="/gamethumbnails/volleythumb.png" class="gamethumbs" />
           Volley Random
         </button>
-        <p class="borders">W</p>
         <button id="buttonwordle" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/wordlethumb.png" class="gamethumbs" />
           Wordle
@@ -248,42 +218,6 @@
       </div>
      </div>
 
-    <!--updates page!!!!!-->
-    <div class="updatesdiv" id="updatesdivid">
-      <hr class="hrs">
-      <h1 class="updatedate">8/20/2024</h1>
-      <hr class="hrs">
-      <p class="updatecontent">+ restyled most ui</p>
-      <p class="updatecontent">+ added a new background</p>
-      <p class="updatecontent">addded 9 new games:</p>
-      <p class="updatecontent">+ chrome dino game</p>
-      <p class="updatecontent">+ vex 7</p>
-      <p class="updatecontent">+ doodle jump</p>
-      <p class="updatecontent">+ google feud</p>
-      <p class="updatecontent">+ scratch getting over it</p>
-      <p class="updatecontent">+ slope 2</p>
-      <p class="updatecontent">+ stickman hook</p>
-      <p class="updatecontent">+ tether</p>
-      <hr class="hrs">
-      <h1 class="updatedate">7/16/2024</h1>
-      <hr class="hrs">
-      <p class="updatecontent">*this update has been significantly delayed because of me having no elctricity for a week*</p>
-      <p class="updatecontent">+ fixed some UI hitboxes</p>
-      <p class="updatecontent">+ resized and restyled some UI elements</p>
-      <p class="updatecontent">+ added some text underneath the main title</p>
-      <p class="updatecontent">addded 5 new games:</p>
-      <p class="updatecontent">+ tunnel rush</p>
-      <p class="updatecontent">+ vex 5</p>
-      <p class="updatecontent">+ stack</p>
-      <p class="updatecontent">+ double wires</p>
-      <p class="updatecontent">+ bottle flip</p>
-      <hr class="hrs">
-      <h1 class="updatedate">7/4/2024 - V5 Release</h1>
-      <hr class="hrs">
-      <p class="updatecontent">V5 Release</p>
-      <p class="updatecontent">dont worry im adding new games trust</p>
-    </div>
- 
 
     <script src="index2.js"></script>
     <script src="index4.js"></script>
