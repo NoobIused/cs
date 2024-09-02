@@ -15,6 +15,7 @@ handleGameButtonClick(buttonboxing, "/gameslist/boxingrandom/index.html");
 handleGameButtonClick(chromedino,"/gameslist/chromedino/index.html");
 handleGameButtonClick(buttoncookie,  "/gameslist/cookieclicker/index.html");
 handleGameButtonClick(buttoncube, "/gameslist/cubefield/index.html");
+handleGameButtonClick(buttondance,  "/gameslist/adofai/index.html");
 handleGameButtonClick(buttondeath, "/gameslist/deathrun3d/index.html");
 handleGameButtonClick(buttondoodle, "/gameslist/doodle/index.html");
 handleGameButtonClick(buttondouble, "/gameslist/doublewires/index.html");
